@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e06aae82-e884-42dc-9025-c7933d5162ef/deploy-status)](https://app.netlify.com/sites/imaginative-hotteok-d32a3f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bc29a08-e542-45b2-82c5-56a87f6b62b3/deploy-status)](https://app.netlify.com/sites/ubiquitous-medovik-ff6860/deploys)
 
-Deployment URL : https://imaginative-hotteok-d32a3f.netlify.app/
+Deployment URL : https://ubiquitous-medovik-ff6860.netlify.app/
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
