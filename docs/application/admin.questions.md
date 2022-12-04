@@ -3,6 +3,7 @@ title: admin.questions
 layout: default
 nav_order: 6 
 parent: admin
+grandparent: Application
 ---
 ## admin.questions.go
 

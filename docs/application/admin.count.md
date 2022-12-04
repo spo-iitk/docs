@@ -3,6 +3,7 @@ title: admin.count
 layout: default
 nav_order: 3
 parent: admin
+grandparent: Application
 ---
 ## admin.count.go
 
