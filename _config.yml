@@ -1,3 +1,7 @@
 title: RAS-Backend Documentation
 description: A guide to understanding the backend server of RAS.
 theme: just-the-docs
+callouts:
+  info:
+    title: Information
+    color: green
