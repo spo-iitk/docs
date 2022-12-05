@@ -54,8 +54,8 @@ CreateDB rc
 CreateDB student
 ```
 
-This file was created to run manually and hence isn't called from any other file.
-This file is run when manually provisioning the databases.
+- This file was created to run manually and hence isn't called from any other file.
+- This file is run when manually provisioning the databases.
 
 #### References
 - [Postgres Documentation](https://www.postgresql.org/docs/)
