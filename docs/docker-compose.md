@@ -3,7 +3,7 @@ title : docker-compose
 layout : default
 nav_order: 8
 ---
-```sh
+```yaml
 version: "3.5"
 
 services:
@@ -17,7 +17,7 @@ services:
 - one is for the database and other for the server
 
 ##### database image
-```sh
+```yaml
 database:
     image: postgres
         restart: always
@@ -35,7 +35,8 @@ database:
 - `ports:` standard mapping of ports
 - `volumes:` standard way of initializing so that data persists even when the container is made to restart.
 
-```sh
+##### server image
+```yaml
 server:
     build:
         context: .
@@ -54,14 +55,14 @@ server:
 * `depends_on:` depends on the image of `database` on the container
 * `networks & ports` standard configuration
 
-```sh
+```yaml
 volumes:
   data:
 ```
 - this creates a memory space outside the container that will be mapped with the database inside the container for the purpose of making the data persist even when the container is made to restart.
 - the mapping is shown with this line of code : `data:/var/lib/postgresql/data` .
 
-```sh
+```yaml
 # network with subnet configuration
 networks:
   default:
