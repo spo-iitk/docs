@@ -28,7 +28,7 @@ service nginx start
 go build -o server ./cmd
 ./server
 ```
-- creates an executable go file named `server` by building the code in [main.go]() which is basically the program for the initialization of our server. then runs it.
+- creates an executable go file named `server` by building the code in [main.go]() which is basically the program for the initialization of our server. Then runs it.
 
 # createDB.sh
 

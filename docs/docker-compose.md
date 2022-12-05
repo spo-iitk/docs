@@ -4,7 +4,9 @@ layout : default
 nav_order: 8
 ---
 
-##docker-compose.yaml
+# docker-compose.yaml
+
+This file is used set up the  configuration setting for containerizing our application.
 
 ```yaml
 version: "3.5"
