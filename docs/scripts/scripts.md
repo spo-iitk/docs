@@ -11,24 +11,24 @@ This is a bash script that is made to run from the file [Dockerfile]() when the 
 ```sh
 git pull origin main --force
 ```
-pulls the latest commits/changes made on the RAS Website code.
+- pulls the latest commits/changes made on the RAS Website code.
 
 ```sh
 go get -d -v ./...
 go install -v ./...
 ```
-for installing all the dependencies.
+- for installing all the dependencies.
 
 ```sh
 service nginx start
 ```
-starts the nginx server.
+- starts the nginx server.
 
 ```sh
 go build -o server ./cmd
 ./server
 ```
-creates an executable go file named `server` by building the code in [main.go]() which is basically the program for the initialization of our server. then runs it.
+- creates an executable go file named `server` by building the code in [main.go]() which is basically the program for the initialization of our server. then runs it.
 
 # createDB.sh
 
