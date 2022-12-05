@@ -23,7 +23,9 @@ First, an empty proforma is fetched using the above function. Then,  the RCID of
 ```go
 func FetchStudentRCIDs(ctx, rid, req.Emails)
 ```
-{: .info}Here rid refers to Recruitment Cycle ID
+{: .info}
+
+Here rid refers to Recruitment Cycle ID
 
 * This takes rid and emails as parameters.
 

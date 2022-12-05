@@ -18,6 +18,7 @@ First, it fetch all the students from the pid using the function :
 func fetchApplicantDetails(ctx, pid, &applied) 
 ```
 {: .info}
+
 Here pid refers to Proforma ID
 
 - This takes pid and an empty array of type ApplicantsByRole (applied) as parameters.

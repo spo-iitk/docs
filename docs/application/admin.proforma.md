@@ -13,6 +13,7 @@ grand_parent: Application
 func getProformaHandler
 ```
 {: .info}
+
 Here pid refers to Proforma ID
 
 * Used to get Proforma from pid.
@@ -30,6 +31,7 @@ Mentioned in [application/db.proforma]()
 func getProformaByCompanyHandler
 ```
 {: .info}
+
 Here cid refers to Company ID
 
 * Used to get Proforma from cid.
@@ -47,6 +49,7 @@ Mentioned in [application/db.proforma]()
 func getAllProformasHandler
 ```
 {: .info}
+
 Here rid refers to Recruitment Cycle ID
 
 * Used to get proformas from rid.
@@ -69,7 +72,8 @@ First the old proforma is fetched using the pid of the same using the function:
 func fetchProforma(ctx, jp.ID, &oldJp)
 ```
 {: .note}
-This is done for only for publishing a notice about the change, where we require RCID of the old proforma.
+
+This is done only for publishing a notice about the change, where we require RCID of the old proforma.
 
 Mentioned in [application/db.proforma]()
 

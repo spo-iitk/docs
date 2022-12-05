@@ -10,7 +10,9 @@ grand_parent: Application
 ```go 
 func getApplicationCountHandler
 ```
-{: .info} Here rid refers to Recruitment Cycle ID
+{: .info} 
+
+Here rid refers to Recruitment Cycle ID
 * It returns the total role count and recruitment count in a rid.
 
 Role count is fetched using the function:
