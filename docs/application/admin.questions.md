@@ -1,9 +1,9 @@
 ---
 title: admin.questions
 layout: default
-nav_order: 6 
-parent: admin
-grandparent: Application
+nav_order: 5
+parent: Admin
+grand_parent: Application
 ---
 ## admin.questions.go
 
@@ -21,8 +21,9 @@ Here pid refers to proforma ID
 func fetchProformaQuestion(ctx, pid, &questions)
 ```
 
-         * This takes pid and an empty array of type 
-           ApplicationQuestion as parameters. 
+  * This takes pid and an empty array of type 
+    ApplicationQuestion as parameters. 
+
 Mentioned in [application/db.question]()
 
 #2
@@ -33,8 +34,8 @@ func postQuestionHandler
 ```go 
 func createProformaQuestions(ctx, &question) 
 ``` 
-         * This takes struct of type 
-           ApplicationQuestion as parameter.
+  * This takes struct of type ApplicationQuestion as parameter.
+
 Mentioned in [application/db.question]()
 
 Also, checks are made so that no empty questions in posted.
@@ -47,8 +48,9 @@ func putQuestionHandler
 ```go 
 func putProformaQuestions(ctx, &question) 
 ``` 
-         * This takes struct of type 
-           ApplicationQuestion as parameter.
+  * This takes struct of type 
+    ApplicationQuestion as parameter.
+
 Mentioned in [application/db.question]()
 
 Also, a check is done to ensure that ID of the question is not 0.
@@ -61,7 +63,8 @@ func deleteQuestionHandler
 ```go 
 func deleteProformaQuestions(ctx, qid) 
 ``` 
-         * This takes qid (question id) as parameter.
+  * This takes qid (question id) as parameter.
+
 Mentioned in [application/db.question]()
 
 #5
@@ -73,8 +76,9 @@ The function used to fetch answers is :
 ```go 
 func fetchAllAnswers(ctx, pid, questionID, &answers)
 ```
-         * This takes pid, qid (question id) and an empty 
-           array of type ApplicationQuestionAnswer as parameter.
+  * This takes pid, qid (question id) and an empty 
+    array of type ApplicationQuestionAnswer as parameter.
+
 Mentioned in [application/db.question]()
 
 

@@ -5,3 +5,6 @@ callouts:
   info:
     title: Information
     color: green
+  note: 
+    title: Note
+    color: blue

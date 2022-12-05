@@ -1,9 +1,9 @@
 ---
 title: admin.pio_ppo
 layout: default
-nav_order: 5
-parent: admin
-grandparent: Application
+nav_order: 4
+parent: Admin
+grand_parent: Application
 ---
 ## admin.pio_ppo.go
 

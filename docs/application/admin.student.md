@@ -1,9 +1,9 @@
 ---
 title: admin.student
 layout: default
-nav_order: 7 
-parent: admin
-grandparent: Application
+nav_order: 6
+parent: Admin
+grand_parent: Application
 ---
 ## admin.student.go
 

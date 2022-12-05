@@ -1,9 +1,9 @@
 ---
 title: admin.count
 layout: default
-nav_order: 3
-parent: admin
-grandparent: Application
+nav_order: 2
+parent: Admin
+grand_parent: Application
 ---
 ## admin.count.go
 

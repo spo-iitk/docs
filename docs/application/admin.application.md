@@ -1,9 +1,9 @@
 ---
 title: admin.application
 layout: default
-nav_order: 2
-parent: admin
-grandparent: Application
+nav_order: 1
+parent: Admin
+grand_parent: Application
 ---
 admin.application.go
 ---

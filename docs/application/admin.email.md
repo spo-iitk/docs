@@ -1,9 +1,9 @@
 ---
 title: admin.email
 layout: default
-nav_order: 4
-parent: admin
-grandparent: Application
+nav_order: 3
+parent: Admin
+grand_parent: Application
 ---
 ## admin.email.go
 ```go
