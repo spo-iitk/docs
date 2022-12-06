@@ -21,6 +21,7 @@ The authentication service is hosted on port 3475.
 - CORS - Cross-Origin Resource Sharing : Custom middleware defined in the middleware documentation
 - Recovery (Standard Go middleware) : to recover from any panic
 - Logger (Standard Go Middleware) : To log the status
+- Gin middleware
 
 Initialized service is passed to [auth router].
 

@@ -4,7 +4,7 @@ layout: default
 nav_order: 2
 ---
 # Overview
-The program is divided into multiple sections for the easy management of the different parts. The different sections of the program use separate ports for increased stability. A crash at one of the ports/handler leaves the others remain unaffected.
+The application is divided into multiple sections and follows a sort of neomonolith architecture. The different sections of the application use separate ports for increased stability. A crash at one of the ports/handler leaves the others remain unaffected.
 
 - RAS: 3470
 -  AUTH: 3475
