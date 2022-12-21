@@ -19,9 +19,9 @@ It returns an http server instance for listening to requests of the mail service
 The adminRC service is hosted on port 3490.
 
 ### Middlewares Attached to the process
-- [CORS]() : Custom middleware
-- [Authenticator]() : Custom middleware to authenticate that the user is an admin.
-- [EnsurePsuedoAdmin]() : Custom middleware
+- [CORS]() : Custom middleware to allow cross-origin requests.
+- [Authenticator]() : Custom middleware to get the role ID of the user using the service.
+- [EnsurePsuedoAdmin]() : Custom middleware to ensure that the role ID is that of a pseudo admin. (OPC, GOD, APC and Chairman)
 - Recovery
 - Logger
 

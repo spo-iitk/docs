@@ -18,7 +18,7 @@ The Go viper package is used to read the [config.yaml configuration constants fi
 The authentication service is hosted on port 3475. 
 
 ### Middlewares Attached to the process
-- CORS - Cross-Origin Resource Sharing : Custom middleware defined in the middleware documentation
+- CORS - Cross-Origin Resource Sharing : Custom middleware to allow cross-origin requests.
 - Recovery (Standard Go middleware) : to recover from any panic
 - Logger (Standard Go Middleware) : To log the status
 - Gin middleware
