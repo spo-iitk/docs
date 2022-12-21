@@ -7,12 +7,12 @@ parent : cmd
 
 # auth.go
 
-This file defines mail service handler for the authentication service.
+This file configures the mail service handler for the authentication service.
 
 ## function authServer
-It returns an http server instance of the started server for reading and writing to the mail service.
+It returns an http server instance of the started server for broadcasting content on the mail channel.
 
-The Go viper package is used to read the [config.yaml secrets file]() and get the port of the authentication service. A new Go engine is initialized and the required middlewares are attached to it.
+The Go viper package is used to read the [config.yaml configuration constants file]() and get the port of the authentication service. A new Go engine is initialized and the required middlewares are attached to it.
 
 {: .info} 
 The authentication service is hosted on port 3475. 

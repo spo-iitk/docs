@@ -19,7 +19,8 @@ Functions in the file
 
 # prog_dept.go
 This file contains utilities to check and compare the program departments.
-Only 1 function is defined to check if the given branch ID is a double major branch ID or not.
+
+**Function isDoubleMajor** to check if the given branch ID is a double major branch ID or not. (returns boolean) 
 
 {: .info }
 > array of all double major program department IDs

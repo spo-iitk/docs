@@ -6,21 +6,21 @@ parent : cmd
 ---
 
 # admin.go
-This file defines mail service handler for the admin service.
 
 
-The Go viper package is used to read the [config.yaml secrets file]() and get the port of the various administrator services. A new Go engine is initialized and the required middlewares are attached to it.
+
+The Go viper package is used to read the [config.yaml configuration constants file]() and get the port of the various administrator services. A new Go engine is initialized and the required middlewares are attached to it.
 
 
 ## function adminRCServer
-It returns an http server instance of the adminRC server for reading and writing to the mail service.
+It returns an http server instance for listening to requests of the mail service.
 
 {: .info} 
 The adminRC service is hosted on port 3490.
 
 ### Middlewares Attached to the process
 - [CORS]() : Custom middleware
-- [Authenticator]() : Custom middleware
+- [Authenticator]() : Custom middleware to authenticate that the user is an admin.
 - [EnsurePsuedoAdmin]() : Custom middleware
 - Recovery
 - Logger
