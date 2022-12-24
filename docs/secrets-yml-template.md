@@ -24,7 +24,7 @@ CALENDAR:
 - The file `secret.yml` is stored on the local system with the actual login credentials.
 - The `secret.yml` file can be seen in the `Dockerfile`.
 
-```sh
+```dockerfile
 RUN cp $GOPATH/src/github.com/spo-iitk/ras-backend/secret.yml.template $GOPATH/src/github.com/spo-iitk/ras-backend/secret.yml
 ```
 - When the docker image is created, this local file is copied into the template and thus the docker image will have the actual secret credentials that we want it to have.
