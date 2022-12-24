@@ -12,7 +12,7 @@ This file that contains all the commands to make the docker image that will then
 FROM golang:1.18-bullseye
 
 # Set the Current Working Directory inside the container
-
+WORKDIR $GOPATH/src/github.com/spo-iitk/ras-backend
 
 RUN apt-get update
 RUN apt-get install -y vim nginx git
@@ -49,7 +49,7 @@ WORKDIR $GOPATH/src/github.com/spo-iitk/ras-backend
 RUN apt-get update
 RUN apt-get install -y vim nginx git
 ```
-- running standard updates inside the container
+- running updates inside the container
 
 ```dockerfile
 RUN git config --global user.name "SPO Web Team"

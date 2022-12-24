@@ -46,7 +46,14 @@ server{
     }
 }
 ```
-the commands like :
+
+our server listens on port 80, which is the port exposed to the world:
+```nginx
+listen 80 default_server;
+    server_name _;
+```
+
+the page requests that it gets are routed to other ports using the commands like :
 ```nginx
 location / {
         proxy_pass http://localhost:3470;
