@@ -1,8 +1,3 @@
----
-title : constants
-layout : default
-nav_order: 9
----
 # ROLES
 
 Upon signup, roles are assigned according to

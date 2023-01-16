@@ -2,9 +2,13 @@ title: RAS-Backend Documentation
 description: A guide to understanding the backend server of RAS.
 theme: just-the-docs
 logo: "/assets/images/spoLogo.webp"
+
 callouts:
   info:
     title: Information
     color: green
 search:
   button: true
+  note: 
+    title: Note
+    color: blue
