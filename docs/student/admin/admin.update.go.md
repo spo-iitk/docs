@@ -1,8 +1,9 @@
 ---
-title: student update handler function admin side
-layout: home
-nav_order: 5
-has_children: true
+title: admin.update
+layout: dafault
+nav_order: 3
+parent: admin
+grand_parent: student
 ---
 # admin.update.go
 

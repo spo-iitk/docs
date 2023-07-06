@@ -1,8 +1,9 @@
 ---
-title: RC student enrollment handler fucntions
-layout: home
-nav_order: 5
-has_children: true
+title: student.enrollment
+layout: dafault
+nav_order: 1
+parent: student
+grand_parent: rc
 ---
 # student.enrollment.go
 

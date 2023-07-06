@@ -1,8 +1,9 @@
 ---
-title: RC student notices handler fucntions
-layout: home
-nav_order: 5
-has_children: true
+title: student.notice
+layout: dafault
+nav_order: 2
+parent: student
+grand_parent: rc
 ---
 # student.notice.go
 

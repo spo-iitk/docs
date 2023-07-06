@@ -1,8 +1,9 @@
 ---
-title: student get handler function student side
-layout: home
-nav_order: 5
-has_children: true
+title: student.get
+layout: dafault
+nav_order: 1
+parent: student
+grand_parent: student
 ---
 # student.get.go
 

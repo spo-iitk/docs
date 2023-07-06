@@ -1,8 +1,9 @@
 ---
-title: RC Admin-Student-Answers handler functions
-layout: home
-nav_order: 5
-has_children: true
+title: admin.answers
+layout: dafault
+nav_order: 1
+parent: admin
+grand_parent: rc
 ---
 # admin.answers.go
 

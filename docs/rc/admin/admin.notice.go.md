@@ -1,8 +1,9 @@
 ---
-title: RC Notices handler functions
-layout: home
+title: admin.notice
+layout: dafault
 nav_order: 5
-has_children: true
+parent: admin
+grand_parent: rc
 ---
 # admin.notice.go
 

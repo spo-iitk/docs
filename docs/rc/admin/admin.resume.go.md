@@ -1,8 +1,9 @@
 ---
-title: RC Admin-Resume handler functions
-layout: home
-nav_order: 5
-has_children: true
+title: admin.resume
+layout: dafault
+nav_order: 8
+parent: admin
+grand_parent: rc
 ---
 # admin.resume.go
 

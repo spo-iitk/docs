@@ -1,8 +1,9 @@
 ---
-title: company HR handler functions company side
-layout: home
-nav_order: 5
-has_children: true
+title: company.hr
+layout: dafault
+nav_order: 1
+parent: company
+grand_parent: company
 ---
 # company.hr.go
 

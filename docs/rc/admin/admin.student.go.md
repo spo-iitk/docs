@@ -1,8 +1,9 @@
 ---
-title: RC Admin-Student handler functions
-layout: home
-nav_order: 5
-has_children: true
+title: admin.student
+layout: dafault
+nav_order: 9
+parent: admin
+grand_parent: rc
 ---
 # admin.student.go
 

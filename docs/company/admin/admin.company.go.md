@@ -1,9 +1,11 @@
 ---
-title: company handler functions admin side
-layout: home
-nav_order: 5
-has_children: true
+title: admin.company
+layout: dafault
+nav_order: 1
+parent: admin
+grand_parent: company
 ---
+
 # admin.company.go
 
 This file contains handler functions to add,update and delete requests for companies.

@@ -1,8 +1,9 @@
 ---
-title: RC Admin-Company handler functions
-layout: home
-nav_order: 5
-has_children: true
+title: admin.company
+layout: default
+nav_order: 3
+parent: admin
+grand_parent: rc
 ---
 # admin.company.go
 

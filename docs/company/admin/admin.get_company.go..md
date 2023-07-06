@@ -1,8 +1,9 @@
 ---
-title: get company handler functions admin side
-layout: home
-nav_order: 5
-has_children: true
+title: admin.get_company
+layout: dafault
+nav_order: 2
+parent: admin
+grand_parent: company
 ---
 ## admin.get_company.go
 

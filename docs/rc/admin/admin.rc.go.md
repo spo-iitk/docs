@@ -1,8 +1,9 @@
 ---
-title: RC
-layout: home
-nav_order: 5
-has_children: true
+title: admin.rc
+layout: dafault
+nav_order: 7
+parent: admin
+grand_parent: rc
 ---
 # admin.rc.go
 

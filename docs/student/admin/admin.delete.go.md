@@ -1,8 +1,9 @@
 ---
-title: student delete handler function admin side
-layout: home
-nav_order: 5
-has_children: true
+title: admin.delete
+layout: dafault
+nav_order: 1
+parent: admin
+grand_parent: student
 ---
 # admin.delete.go
 
