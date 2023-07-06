@@ -1,8 +1,9 @@
 ---
-title: RC company info handler fucntions
-layout: home
-nav_order: 5
-has_children: true
+title: company.info
+layout: dafault
+nav_order: 1
+parent: company
+grand_parent: rc
 ---
 # company.info.go
 

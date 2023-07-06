@@ -1,8 +1,9 @@
 ---
-title: RC student resume handler fucntions
-layout: home
-nav_order: 5
-has_children: true
+title: student.resume
+layout: dafault
+nav_order: 4
+parent: student
+grand_parent: rc
 ---
 # student.resume.go
 

@@ -1,8 +1,9 @@
 ---
-title: RC student handler functions
-layout: home
-nav_order: 5
-has_children: true
+title: student.rc
+layout: dafault
+nav_order: 3
+parent: student
+grand_parent: rc
 ---
 # student.rc.go
 
