@@ -1,8 +1,9 @@
 ---
-title: RC count handler function
-layout: home
-nav_order: 5
-has_children: true
+title: admin.count
+layout: dafault
+nav_order: 4
+parent: admin
+grand_parent: rc
 ---
 # admin.count.go
 

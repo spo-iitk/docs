@@ -1,13 +1,15 @@
 ---
-title: Company
-layout: home
-nav_order: 5
-has_children: true
+title : router
+layout : default
+nav_order: 2
+parent : admin
 ---
-# student.rc.go
+# router.go
 
-## function getStudentRCHandler
+This file declares the API routes and attaches middlewares related to rc to the adminRCServer, studentRCServer, companyRCServer.
 
+Backend API documentation: [https://ras-docs.netlify.app/]
 
-## function studentWhoamiHandler
-returns student information of the requested recruitment cycle. 
+The middlewares attached to these servers are:
+[rc util util.active_rc.middleware]()
+[rc util util.student.middleware]()

@@ -1,8 +1,9 @@
 ---
-title: RC Admin-Student-Question handler functions
-layout: home
-nav_order: 5
-has_children: true
+title: admin.question
+layout: dafault
+nav_order: 6
+parent: admin
+grand_parent: rc
 ---
 # admin.question.go
 

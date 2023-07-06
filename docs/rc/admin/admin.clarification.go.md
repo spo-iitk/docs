@@ -1,8 +1,9 @@
 ---
-title: RC Admin-clarification handler funciton
-layout: home
-nav_order: 5
-has_children: true
+title: admin.clarification
+layout: dafault
+nav_order: 2
+parent: admin
+grand_parent: rc
 ---
 # admin.clarification.go
 
